@@ -33,6 +33,7 @@ jobs:
           pip install -r requirements.txt
         else
           echo "Nenhum arquivo de dependências encontrado."
+        fi
 
     - name: Executar script de Copilot
       run: python Copilot.py
