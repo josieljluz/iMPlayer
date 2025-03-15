@@ -36,12 +36,12 @@ jobs:
 
     - name: Atualizar timestamp nos arquivos baixados
       run: |
-        for file in $(find iMPlayer -type f); do
+        for file in $(find playlists -type f); do
           echo "# Atualizado em $(date)" >> "$file"
         done
 
     - name: Confirmar arquivos baixados
-      run: ls -la iMPlayer
+      run: ls -la playlists
 
     - name: Verificar mudanças no Git
       id: git_status
@@ -57,7 +57,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add iMPlayer/
+        git add playlists/
         git commit -m "Atualização automática dos arquivos baixados"
         git pull --rebase origin main
         git push https://x-access-token:${{ secrets.MY_DOWNLOAD_GITHUB_TOKEN }}@github.com/josieljluz/iMPlayer.git main
