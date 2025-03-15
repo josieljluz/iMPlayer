@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # Configurações globais
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-OUTPUT_DIR = os.path.join(os.getcwd(), "iMPlayer")
+OUTPUT_DIR = os.path.join(os.getcwd(), "playlists")
 TIMEOUT = 10  # Timeout configurável
 RETRIES = 3  # Número de tentativas de download
 MAX_WORKERS = 5  # Número máximo de downloads simultâneos
@@ -69,7 +69,7 @@ def download_file(url, save_path, retries=RETRIES):
     return False
 
 def main():
-    # Remove a pasta iMPlayer antes de baixar os arquivos
+    # Remove a pasta playlists antes de baixar os arquivos
     logger.info("Limpando diretório anterior...")
     shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
     os.makedirs(OUTPUT_DIR, exist_ok=True)
