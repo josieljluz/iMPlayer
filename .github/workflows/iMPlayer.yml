@@ -1,4 +1,4 @@
-name: playlists
+name: iMPlayer
 
 on:
   schedule:
@@ -31,8 +31,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Executar script de playlists
-      run: python playlists.py
+    - name: Executar script de iMPlayer
+      run: python iMPlayer.py
 
     - name: Atualizar timestamp nos arquivos baixados
       run: |
