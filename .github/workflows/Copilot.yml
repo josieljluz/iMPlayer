@@ -28,12 +28,8 @@ jobs:
 
     - name: Verificar e instalar dependências
       run: |
-        if [ -f requirements.txt ]; then
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-        else
-          echo "Nenhum arquivo de dependências encontrado."
-        fi
+        python -m pip install --upgrade pip
+        pip install requests
 
     - name: Executar script de Copilot
       run: python Copilot.py
