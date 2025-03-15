@@ -77,7 +77,9 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add iMPlayer/
         git commit -m "Atualização automática dos arquivos baixados em $(date +'%Y-%m-%d %H:%M:%S')"
-        git pull --rebase origin main
+        git fetch origin main
+        git reset --hard origin/main  # Força a sobrescrita do branch local com o remoto
+        git merge --strategy-option theirs --allow-unrelated-histories -m "Mesclando alterações"  # Resolve conflitos usando a versão local
         git push https://x-access-token:${{ secrets.MY_DOWNLOAD_GITHUB_TOKEN }}@github.com/josieljluz/iMPlayer.git main
 
     # Passo 10: Notificar sucesso
