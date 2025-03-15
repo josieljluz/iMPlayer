@@ -5,19 +5,27 @@
 
 #EXTINF:-1 tvg-id="TVAlvoradadoSul(Portuguese).br" tvg-name="ATV - AO VIVO E ENJOY CINEMA" tvg-logo="https://i.imgur.com/ulAV8b5.png" group-title="ATV",ATV - AO VIVO E ENJOY CINEMA
 https://files.catbox.moe/249z1v.mp4
+
 #EXTINF:-1 tvg-id="TVAntena10(Portuguese).br" tvg-name="ANTENA 10 HD" tvg-logo="https://i.imgur.com/BqzBsdm.png" group-title="PIAUÍ TV",ANTENA 10 HD
 https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/chunklist_w2123538353_b1396000.m3u8
+
 #EXTINF:-1 tvg-id="RedeTV(Portuguese).br" tvg-name="O DIA TV" tvg-logo="https://i.imgur.com/xbPIEDD.png" group-title="PIAUÍ TV",O DIA TV
 https://59e4b6c1beddc.streamlock.net/tvodia/tvodia/chunklist_w1921501568.m3u8
+
 #EXTINF:-1 tvg-id="TVAntena10(Portuguese).br" tvg-name="TV CANÇÃO NOVA" tvg-logo="https://yt3.googleusercontent.com/NlmXFhK3JMZqsMltQPvfjhVWcOlvgKlhrgo_3i74wiKAidhqcV272CAW6lFLFqp0HSSTCgbO=s176-c-k-c0x00ffffff-no-rj" group-title="PIAUÍ TV",TV CANÇÃO NOVA
 https://www.youtube.com/user/tvcancaonova/live
+
 #EXTINF:-1 tvg-id="TVCidadeVerde(Portuguese).br" tvg-name="TV CIDADE VERDE PICOS" tvg-logo="https://i.imgur.com/rkGbMJL.png" group-title="PIAUÍ TV",TV CIDADE VERDE PICOS
 https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/chunklist_w1496024979.m3u8
+
 #EXTINF:-1 tvg-id="SBT(Portuguese).br" tvg-name="TV CIDADE VERDE PICOS FHD" tvg-logo="https://i.imgur.com/rkGbMJL.png" group-title="PIAUÍ TV",TV CIDADE VERDE PICOS FHD
 https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/chunklist_w685970594.m3u8
+
 #EXTINF:-1 tvg-id="TVCidadeVerde(Portuguese).br" tvg-name="TV CIDADE VERDE TERESINA" tvg-logo="https://i.imgur.com/rkGbMJL.png" group-title="PIAUÍ TV",TV CIDADE VERDE TERESINA
 https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/chunklist_w1115557601.m3u8
+
 #EXTINF:-1 tvg-id="SBT(Portuguese).br" tvg-name="TV CIDADE VERDE TERESINA HD" tvg-logo="https://i.imgur.com/rkGbMJL.png" group-title="PIAUÍ TV",TV CIDADE VERDE TERESINA HD
 https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/chunklist_w1094170448.m3u8
+
 #EXTINF:-1 tvg-id="TVAntena10(Portuguese).br" tvg-name="TV GALLO" tvg-logo="https://i.imgur.com/Go7equc.png" group-title="PIAUÍ TV",TV GALLO
 https://5c483b9d1019c.streamlock.net/8202/8202/chunklist_w974707802.m3u8
