@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-📺 IPTV DOWNLOADER ULTRA - v3.1
-🔹 Sistema avançado para download de playlists M3U e EPG
+📺 IPTV DOWNLOADER - Baixador de Playlists M3U do GitHub
+🔹 Sistema para download de playlists M3U hospedadas no GitHub
 🔹 Recursos:
    - Download paralelo com retry automático
-   - Cache inteligente com validação
-   - Sistema de fallback para servidores alternativos
-   - Monitoramento em tempo real
-   - Suporte a proxies
+   - Cache inteligente
+   - Tratamento de erros robusto
 """
 
 import os
@@ -18,11 +16,10 @@ import requests
 import hashlib
 import logging
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from tqdm import tqdm
-from bs4 import BeautifulSoup
 
 # 🎨 Configuração de cores para terminal
 class TermColors:
@@ -36,7 +33,7 @@ class TermColors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-# 📝 Configuração avançada de logging
+# 📝 Configuração de logging
 class CustomFormatter(logging.Formatter):
     """Formata logs com cores e informações detalhadas"""
     FORMATS = {
@@ -54,7 +51,7 @@ class CustomFormatter(logging.Formatter):
 
 def setup_logger(level=logging.INFO):
     """Configura o logger com saída para console e arquivo"""
-    logger = logging.getLogger('IPTVDownloader')
+    logger = logging.getLogger('GitHubDownloader')
     logger.setLevel(level)
     
     # Handler para console
@@ -63,7 +60,7 @@ def setup_logger(level=logging.INFO):
     ch.setFormatter(CustomFormatter())
     
     # Handler para arquivo
-    fh = logging.FileHandler('iptv_downloader.log', encoding='utf-8')
+    fh = logging.FileHandler('github_downloader.log', encoding='utf-8')
     fh.setLevel(logging.DEBUG)
     file_formatter = logging.Formatter(
         '%(asctime)s [%(levelname)s] %(message)s',
@@ -84,9 +81,8 @@ class RequestManager:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) IPTV-Downloader/3.0',
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) GitHub-Downloader/1.0',
             'Accept': '*/*',
-            'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
             'Accept-Encoding': 'gzip, deflate',
             'Connection': 'keep-alive'
         })
@@ -96,15 +92,11 @@ class RequestManager:
         self.cache_dir = Path('.cache')
         self.cache_dir.mkdir(exist_ok=True)
     
-    def get_with_retry(self, url: str, **kwargs) -> Optional[requests.Response]:
+    def get_with_retry(self, url: str) -> Optional[requests.Response]:
         """Executa requisição com tentativas automáticas"""
         for attempt in range(self.max_retries):
             try:
-                response = self.session.get(
-                    url,
-                    timeout=self.timeout,
-                    **kwargs
-                )
+                response = self.session.get(url, timeout=self.timeout)
                 response.raise_for_status()
                 return response
             except requests.exceptions.RequestException as e:
@@ -115,9 +107,9 @@ class RequestManager:
                     logger.error(f"Falha ao acessar {url}: {str(e)}")
                     return None
 
-# 📺 Classe principal do IPTV Downloader
-class IPTVUltraDownloader:
-    """Sistema avançado para download de playlists IPTV"""
+# 📂 Classe principal do GitHub Downloader
+class GitHubDownloader:
+    """Sistema para download de arquivos M3U do GitHub"""
     
     def __init__(self):
         self.request_manager = RequestManager()
@@ -129,34 +121,34 @@ class IPTVUltraDownloader:
             'bytes_downloaded': 0,
             'cache_hits': 0
         }
-        self.cache_dir = Path('.cache')
     
     def _load_playlists(self) -> Dict[str, Dict]:
-        """Carrega as playlists com fallback para múltiplos servidores"""
+        """Carrega as playlists com seus respectivos links"""
         return {
-            'main': {
-                'name': '📻 Playlist Principal',
-                'sources': [
-                    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br.m3u',
-                    'https://iptv-org.github.io/iptv/countries/br.m3u'
-                ],
-                'epg': [
-                    'https://iptv-org.github.io/epg/guides/br.xml',
-                    'https://raw.githubusercontent.com/iptv-org/epg/master/guides/br.xml'
-                ],
+            'piauitv': {
+                'name': '📡 Piauí TV',
+                'url': 'https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u',
+                'category': 'regional'
+            },
+            'proton': {
+                'name': '⚛️ M3U Proton',
+                'url': 'https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u',
                 'category': 'general'
             },
-            'international': {
-                'name': '🌍 Playlist Internacional',
-                'sources': [
-                    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/multi.m3u',
-                    'https://iptv-org.github.io/iptv/countries/multi.m3u'
-                ],
-                'epg': [
-                    'https://iptv-org.github.io/epg/guides/multi.xml',
-                    'https://raw.githubusercontent.com/iptv-org/epg/master/guides/multi.xml'
-                ],
-                'category': 'international'
+            'playlist': {
+                'name': '📻 Playlist Geral',
+                'url': 'https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u',
+                'category': 'general'
+            },
+            'playlists': {
+                'name': '🎬 Playlists Variadas',
+                'url': 'https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u',
+                'category': 'general'
+            },
+            'pornstars': {
+                'name': '🔞 Conteúdo Adulto',
+                'url': 'https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u',
+                'category': 'adult'
             }
         }
     
@@ -166,7 +158,7 @@ class IPTVUltraDownloader:
     
     def _check_cache(self, cache_key: str) -> Optional[bytes]:
         """Verifica se o conteúdo está em cache"""
-        cache_file = self.cache_dir / cache_key
+        cache_file = self.request_manager.cache_dir / cache_key
         if cache_file.exists():
             with open(cache_file, 'rb') as f:
                 content = f.read()
@@ -176,7 +168,7 @@ class IPTVUltraDownloader:
     
     def _save_to_cache(self, cache_key: str, content: bytes):
         """Armazena conteúdo no cache"""
-        cache_file = self.cache_dir / cache_key
+        cache_file = self.request_manager.cache_dir / cache_key
         with open(cache_file, 'wb') as f:
             f.write(content)
     
@@ -220,27 +212,14 @@ class IPTVUltraDownloader:
             return False
         
         playlist = self.playlists[playlist_id]
-        success = True
+        m3u_path = output_dir / f"{playlist_id}.m3u"
         
-        # Tenta cada fonte até conseguir
-        for source in playlist['sources']:
-            m3u_path = output_dir / f"{playlist_id}.m3u"
-            if self.download_file(source, m3u_path):
-                logger.info(f"✅ Playlist {playlist_id} baixada com sucesso")
-                break
-            else:
-                success = False
-        
-        # Mesmo para EPG
-        for epg_source in playlist['epg']:
-            epg_path = output_dir / f"{playlist_id}.xml"
-            if self.download_file(epg_source, epg_path):
-                logger.info(f"✅ EPG {playlist_id} baixado com sucesso")
-                break
-            else:
-                success = False
-        
-        return success
+        if self.download_file(playlist['url'], m3u_path):
+            logger.info(f"✅ {playlist['name']} baixada com sucesso")
+            return True
+        else:
+            logger.error(f"❌ Falha ao baixar {playlist['name']}")
+            return False
     
     def update_all(self, output_dir: Path, max_workers: int = 4) -> bool:
         """Atualiza todas as playlists em paralelo"""
@@ -276,9 +255,6 @@ class IPTVUltraDownloader:
         bytes_size = self.stats['bytes_downloaded']
         size = f"{bytes_size/1024/1024:.2f} MB" if bytes_size > 1024*1024 else f"{bytes_size/1024:.2f} KB"
         logger.info(f"🔹 Dados transferidos: {size}")
-        
-        if self.stats['failed'] > 0:
-            logger.warning("⚠️ Algumas operações falharam. Verifique os logs.")
 
 # 🎯 Ponto de entrada principal
 def main():
@@ -286,7 +262,7 @@ def main():
     try:
         import argparse
         
-        parser = argparse.ArgumentParser(description='📺 IPTV Downloader Ultra')
+        parser = argparse.ArgumentParser(description='📥 GitHub M3U Downloader')
         parser.add_argument('--dir', type=str, default='playlists',
                           help='Diretório de saída para as playlists')
         parser.add_argument('--paralelo', type=int, default=4,
@@ -308,7 +284,7 @@ def main():
         output_dir.mkdir(exist_ok=True)
         
         # Configura o downloader
-        downloader = IPTVUltraDownloader()
+        downloader = GitHubDownloader()
         downloader.request_manager.timeout = args.timeout
         downloader.request_manager.retry_delay = args.delay
         
