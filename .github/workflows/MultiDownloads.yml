@@ -1,4 +1,4 @@
-name: 🆕 Atualização Automática de Playlists M3U do GitHub
+name: 🆕 Atualização Automática de Playlists M3U
 
 on:
   schedule:
@@ -39,7 +39,7 @@ jobs:
           mkdir -p ${{ env.PLAYLISTS_DIR }}
           echo "Diretório pronto em ./${{ env.PLAYLISTS_DIR }}"
 
-      - name: 🚀 Executar GitHub Downloader
+      - name: 🚀 Executar Downloader
         id: downloader
         run: |
           echo "Iniciando processo de download..."
@@ -49,19 +49,23 @@ jobs:
             --delay 2 \
             --dir ${{ env.PLAYLISTS_DIR }} \
             --log-level INFO
-          
-          # Verifica se houve alterações
-          UPDATED_FILES=$(git status --porcelain | wc -l)
-          echo "updated_files=$UPDATED_FILES" >> $GITHUB_OUTPUT
 
       - name: 💾 Commitar alterações
-        if: steps.downloader.outputs.updated_files != '0'
+        id: commit-changes
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions-bot@users.noreply.github.com"
-          git add ${{ env.PLAYLISTS_DIR }}
-          git commit -m "🔄 Atualização automática de playlists [$(date +'%d/%m/%Y %H:%M')]"
-          git push
+          # Verifica se há mudanças na pasta de playlists
+          if git diff --quiet --exit-code -- ${{ env.PLAYLISTS_DIR }}; then
+            echo "Não há alterações para commitar"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Preparando para commitar alterações..."
+            git config --global user.name "GitHub Actions Bot"
+            git config --global user.email "actions-bot@users.noreply.github.com"
+            git add ${{ env.PLAYLISTS_DIR }}
+            git commit -m "🔄 Atualização automática de playlists [$(date +'%d/%m/%Y %H:%M')]"
+            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -73,3 +77,27 @@ jobs:
           path: ${{ env.PLAYLISTS_DIR }}
           retention-days: 7
           compression-level: 9
+
+      - name: 📊 Notificar status
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: run } = await github.rest.actions.getWorkflowRun({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.runId
+            });
+            
+            const status = run.conclusion === 'success' ? '✅ Sucesso' : '❌ Falha';
+            const filesUpdated = steps.commit-changes.outputs.has_changes === 'true' ? 'Sim' : 'Não';
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `### Status: ${status}\n\n` +
+                    `- Execução: [${run.html_url}](${run.html_url})\n` +
+                    `- Artefatos: [Download](${run.html_url}/artifacts)\n` +
+                    `- Arquivos atualizados: ${filesUpdated}`
+            });
