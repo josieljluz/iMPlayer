@@ -69,9 +69,9 @@ def main():
             "http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp",
             "https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u",
             "https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u",
-            "playlist.m3u": "https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u",
-            "playlists.m3u": "https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u",
-            "pornstars.m3u": "https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u"
+            "https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u",
+            "https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u",
+            "https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u"
         ],
         "xml.gz": [
             "http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7",
