@@ -1,0 +1,98 @@
+name: 🆕 Atualização Automática de Playlists IPTV
+
+on:
+  schedule:
+    - cron: '1 0 * * *'  # Diariamente às 00:01 UTC
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+env:
+  PYTHON_VERSION: '3.10'
+  PLAYISTS_DIR: 'playlists'
+
+jobs:
+  update-iptv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    steps:
+      - name: 🛒 Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Configurar Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: 📦 Instalar dependências
+        run: |
+          python -m pip install --upgrade pip wheel
+          pip install requests lxml pytz tqdm beautifulsoup4
+          echo "Dependências instaladas com sucesso!"
+
+      - name: 🗃 Criar diretório de playlists
+        run: |
+          mkdir -p ${{ env.PLAYISTS_DIR }}
+          echo "Diretório pronto em ./${{ env.PLAYISTS_DIR }}"
+
+      - name: 🚀 Executar IPTV Downloader
+        id: downloader
+        run: |
+          echo "Iniciando processo de download..."
+          python IPTV_DOWNLOADS.py \
+            --paralelo 6 \
+            --timeout 45 \
+            --delay 3 \
+            --dir ${{ env.PLAYISTS_DIR }} \
+            --log-level INFO
+          
+          echo "::set-output name=updated_files::$(git status --porcelain | wc -l)"
+
+      - name: 💾 Commitar alterações
+        if: steps.downloader.outputs.updated_files != '0'
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@users.noreply.github.com"
+          git add ${{ env.PLAYISTS_DIR }}
+          git commit -m "🔄 Atualização automática de playlists [$(date +'%d/%m/%Y %H:%M')]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 📤 Upload de artefatos
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iptv-playlists
+          path: ${{ env.PLAYISTS_DIR }}
+          retention-days: 7
+          compression-level: 9
+
+      - name: 📊 Notificar status
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: run } = await github.rest.actions.getWorkflowRun({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.runId
+            });
+            
+            const status = run.conclusion === 'success' ? '✅ Sucesso' : '❌ Falha';
+            const filesUpdated = '${{ steps.downloader.outputs.updated_files }}';
+            
+            core.summary()
+              .addHeading(`Status: ${status}`)
+              .addList([
+                `Execução: ${run.html_url}`,
+                `Artefatos: ${run.html_url}/artifacts`,
+                `Arquivos atualizados: ${filesUpdated}`
+              ])
+              .write();
