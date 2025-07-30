@@ -137,12 +137,10 @@ class IPTVUltraDownloader:
             'epgbrasil': {
                 'name': '🇧🇷 EPG Brasil',
                 'sources': [
-                    'http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7',
-                    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br.m3u'
+                    'http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7'
                 ],
                 'epg': [
-                    'http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7',
-                    'https://iptv-org.github.io/epg/guides/br.xml'
+                    'http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7'
                 ],
                 'category': 'brasil'
             },
