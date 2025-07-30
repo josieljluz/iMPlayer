@@ -1,0 +1,27 @@
+{
+  "playlists": {
+    "main": {
+      "name": "Playlist Principal",
+      "sources": [
+        "https://server1.com/m3u/xe47yz1pd9spv21mn9vq",
+        "https://backup1.com/m3u/xe47yz1pd9spv21mn9vq"
+      ],
+      "epg": [
+        "https://server1.com/epg/xe47yz1pd9spv21mn9vq",
+        "https://backup1.com/epg/xe47yz1pd9spv21mn9vq"
+      ],
+      "category": "general"
+    }
+  },
+  "network": {
+    "timeout": 30,
+    "max_retries": 3,
+    "retry_delay": 5,
+    "max_parallel": 6
+  },
+  "cache": {
+    "enabled": true,
+    "directory": ".cache",
+    "ttl_days": 7
+  }
+}
