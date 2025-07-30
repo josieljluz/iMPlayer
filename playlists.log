@@ -1,0 +1,42 @@
+2025-07-30 17:57:46,715 - INFO - Removendo arquivos antigos...
+2025-07-30 17:57:46,715 - INFO - Removido: epgbrasilportugal.m3u
+2025-07-30 17:57:46,715 - INFO - Removido: XXX18.m3u
+2025-07-30 17:57:46,716 - INFO - Removido: XXX.m3u
+2025-07-30 17:57:46,716 - INFO - Removido: epgportugal.m3u
+2025-07-30 17:57:46,716 - INFO - Removido: epgbrasil.m3u
+2025-07-30 17:57:46,716 - INFO - Removido: PiauiTV.m3u
+2025-07-30 17:57:46,717 - INFO - Iniciando downloads...
+2025-07-30 17:57:46,717 - INFO - Tentativa 1 de 3: Baixando de: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2025-07-30 17:57:46,717 - INFO - Tentativa 1 de 3: Baixando de: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2025-07-30 17:57:46,718 - INFO - Tentativa 1 de 3: Baixando de: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2025-07-30 17:57:46,719 - INFO - Tentativa 1 de 3: Baixando de: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2025-07-30 17:57:46,719 - INFO - Tentativa 1 de 3: Baixando de: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2025-07-30 17:57:46,929 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes)
+2025-07-30 17:57:46,930 - INFO - Hash MD5: ed19d1bee8112f753504aab432876025
+2025-07-30 17:57:46,930 - INFO - Tentativa 1 de 3: Baixando de: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2025-07-30 17:57:46,989 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes)
+2025-07-30 17:57:46,998 - INFO - Hash MD5: 17e34181bba3a93ed726df4bc76b9a9c
+2025-07-30 17:57:46,999 - INFO - Tentativa 1 de 3: Baixando de: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2025-07-30 17:57:47,067 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (106491 bytes)
+2025-07-30 17:57:47,068 - INFO - Hash MD5: 9b25a24fd3ab9a5229ae0e648331fe5b
+2025-07-30 17:57:47,068 - INFO - Tentativa 1 de 3: Baixando de: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2025-07-30 17:57:47,203 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes)
+2025-07-30 17:57:47,203 - INFO - Hash MD5: 5e4f576e8ce1ee516c916d59ed08a851
+2025-07-30 17:57:47,204 - INFO - Tentativa 1 de 3: Baixando de: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2025-07-30 17:57:47,327 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (99364 bytes)
+2025-07-30 17:57:47,328 - INFO - Hash MD5: b88007e5c1dc09f5664064552e0c99c2
+2025-07-30 17:57:47,328 - INFO - Tentativa 1 de 3: Baixando de: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2025-07-30 17:57:47,692 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/epgbrasilportugal.m3u (6833 bytes)
+2025-07-30 17:57:47,692 - INFO - Hash MD5: 2b8d239a20f299fbb89cf6cc8933170f
+2025-07-30 17:57:47,692 - INFO - Tentativa 1 de 3: Baixando de: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2025-07-30 17:57:47,813 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (639011 bytes)
+2025-07-30 17:57:47,815 - INFO - Hash MD5: b45a4ecb7e9e16b774d737233baa4560
+2025-07-30 17:57:47,823 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (2262348 bytes)
+2025-07-30 17:57:47,827 - INFO - Hash MD5: fce788edd736f5407b18f61966f41949
+2025-07-30 17:57:48,317 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.xml.gz (722799 bytes)
+2025-07-30 17:57:48,319 - INFO - Hash MD5: 4f53ff935e5ab5aeb71b2cd1d434d31d
+2025-07-30 17:57:48,371 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/epgbrasilportugal.xml.gz (105892 bytes)
+2025-07-30 17:57:48,371 - INFO - Hash MD5: 0ca86ce9e955c3280280876724f12aeb
+2025-07-30 17:57:48,741 - INFO - Sucesso: /home/runner/work/iMPlayer/iMPlayer/epgportugal.xml.gz (1861714 bytes)
+2025-07-30 17:57:48,744 - INFO - Hash MD5: 6c6424c0595ba98ea63c33537809a496
+2025-07-30 17:57:48,744 - INFO - Downloads concluídos.
