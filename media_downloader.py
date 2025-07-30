@@ -301,9 +301,14 @@ def get_download_lists():
     
     # Arquivos para a pasta raiz (algumas playlists selecionadas)
     root_files = {
-        "main_playlist.m3u": "http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7",
-        "backup_playlist.m3u": "http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp",
-        "guide.xml.gz": "http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7"
+        "epgbrasil.m3u": "http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7",
+        "epgbrasilportugal.m3u": "http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp",
+        "epgportugal.m3u": "http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5",
+        "PiauiTV.m3u": "https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u",
+        "m3u@proton.me.m3u": "https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u",
+        "playlist.m3u": "https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u",
+        "playlists.m3u": "https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u",
+        "pornstars.m3u": "https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u"
     }
     
     return playlists, epg_files, implayer_files, root_files
