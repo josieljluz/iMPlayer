@@ -164,7 +164,7 @@ jobs:
       run: |
 
     - name: Confirmar arquivos baixados
-      run: ls -la
+      run: ls -la 
 
     - name: Verificar mudanças no Git
       id: git_status
