@@ -4218,3 +4218,72 @@
 2025-09-07 00:36:14,830 [INFO] Resultado: 28 sucessos, 0 falhas
 2025-09-07 00:36:14,830 [INFO] Todos os downloads foram concluídos com sucesso!
 2025-09-07 00:36:14,830 [INFO] Script finalizado
+2025-09-07 22:54:42,509 [INFO] Iniciando processo de download
+2025-09-07 22:54:42,509 [INFO] Preparando estrutura de diretórios...
+2025-09-07 22:54:42,511 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2025-09-07 22:54:42,511 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2025-09-07 22:54:42,512 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/epg
+2025-09-07 22:54:42,512 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2025-09-07 22:54:42,514 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2025-09-07 22:54:42,515 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2025-09-07 22:54:42,515 [INFO] Iniciando 28 downloads com 5 threads...
+2025-09-07 22:54:42,515 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2025-09-07 22:54:42,516 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2025-09-07 22:54:42,516 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2025-09-07 22:54:42,517 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2025-09-07 22:54:42,517 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2025-09-07 22:54:44,266 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (639011 bytes) | Hash: b45a4ecb7e9e16b774d737233baa4560
+2025-09-07 22:54:44,267 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2025-09-07 22:54:44,283 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasilportugal.m3u (6833 bytes) | Hash: 2b8d239a20f299fbb89cf6cc8933170f
+2025-09-07 22:54:44,283 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2025-09-07 22:54:44,286 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgbrasilportugal.m3u (6833 bytes) | Hash: 2b8d239a20f299fbb89cf6cc8933170f
+2025-09-07 22:54:44,286 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2025-09-07 22:54:44,373 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgportugal.m3u (2262348 bytes) | Hash: fce788edd736f5407b18f61966f41949
+2025-09-07 22:54:44,373 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2025-09-07 22:54:44,486 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgbrasil.m3u (639011 bytes) | Hash: b45a4ecb7e9e16b774d737233baa4560
+2025-09-07 22:54:44,486 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2025-09-07 22:54:44,813 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2025-09-07 22:54:44,814 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2025-09-07 22:54:44,895 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2025-09-07 22:54:44,896 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2025-09-07 22:54:44,993 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2025-09-07 22:54:44,994 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2025-09-07 22:54:45,020 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2025-09-07 22:54:45,021 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2025-09-07 22:54:45,258 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2025-09-07 22:54:45,259 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2025-09-07 22:54:45,325 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2025-09-07 22:54:45,327 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2025-09-07 22:54:45,328 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2025-09-07 22:54:45,329 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2025-09-07 22:54:45,349 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2025-09-07 22:54:45,350 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2025-09-07 22:54:45,642 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (2262348 bytes) | Hash: fce788edd736f5407b18f61966f41949
+2025-09-07 22:54:45,642 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2025-09-07 22:54:45,723 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2025-09-07 22:54:45,724 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2025-09-07 22:54:45,820 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2025-09-07 22:54:45,821 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2025-09-07 22:54:47,764 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgbrasilportugal.xml.gz (73330 bytes) | Hash: 029ec8088e87b5253dffdc8282d44d61
+2025-09-07 22:54:47,764 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2025-09-07 22:54:47,806 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_2.m3u (6833 bytes) | Hash: 2b8d239a20f299fbb89cf6cc8933170f
+2025-09-07 22:54:47,806 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2025-09-07 22:54:47,886 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.m3u (639011 bytes) | Hash: b45a4ecb7e9e16b774d737233baa4560
+2025-09-07 22:54:47,886 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2025-09-07 22:54:48,074 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgbrasil.xml.gz (735420 bytes) | Hash: f4aba85a6209745778495787b9650291
+2025-09-07 22:54:48,075 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2025-09-07 22:54:48,081 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgportugal.xml.gz (1837575 bytes) | Hash: 10e04a22fa3cf4547d8c1cd30a348405
+2025-09-07 22:54:48,081 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2025-09-07 22:54:49,243 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_2.xml.gz (73330 bytes) | Hash: 029ec8088e87b5253dffdc8282d44d61
+2025-09-07 22:54:49,244 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2025-09-07 22:54:49,330 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.xml.gz (735420 bytes) | Hash: f4aba85a6209745778495787b9650291
+2025-09-07 22:54:49,330 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2025-09-07 22:54:49,364 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.m3u (2262348 bytes) | Hash: fce788edd736f5407b18f61966f41949
+2025-09-07 22:54:49,377 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (639011 bytes) | Hash: b45a4ecb7e9e16b774d737233baa4560
+2025-09-07 22:54:49,428 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.xml.gz (1837575 bytes) | Hash: 10e04a22fa3cf4547d8c1cd30a348405
+2025-09-07 22:54:50,300 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasilportugal.m3u (6833 bytes) | Hash: 2b8d239a20f299fbb89cf6cc8933170f
+2025-09-07 22:54:50,637 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (2262348 bytes) | Hash: fce788edd736f5407b18f61966f41949
+2025-09-07 22:54:50,638 [INFO] Processo concluído em 8.13 segundos
+2025-09-07 22:54:50,638 [INFO] Resultado: 28 sucessos, 0 falhas
+2025-09-07 22:54:50,638 [INFO] Todos os downloads foram concluídos com sucesso!
+2025-09-07 22:54:50,639 [INFO] Script finalizado
