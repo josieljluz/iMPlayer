@@ -20686,3 +20686,162 @@
 2026-02-11 23:50:43,352 [INFO] Resultado: 22 sucessos, 6 falhas
 2026-02-11 23:50:43,352 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-02-11 23:50:43,352 [INFO] Script finalizado
+2026-02-12 23:48:33,384 [INFO] Iniciando processo de download
+2026-02-12 23:48:33,384 [INFO] Preparando estrutura de diretórios...
+2026-02-12 23:48:33,385 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-02-12 23:48:33,385 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-02-12 23:48:33,386 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-02-12 23:48:33,386 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-02-12 23:48:33,388 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-02-12 23:48:33,388 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-02-12 23:48:33,388 [INFO] Iniciando 28 downloads com 5 threads...
+2026-02-12 23:48:33,389 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:33,389 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:33,390 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:33,390 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:33,391 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:33,457 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:33,462 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:33,462 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:33,470 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:33,479 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:35,459 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:35,462 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:35,463 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:35,471 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:35,480 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:35,509 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:35,512 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:35,514 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:35,520 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:35,527 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,513 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:39,515 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:39,517 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,523 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:39,531 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,533 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:39,534 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:39,534 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:39,535 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:39,535 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:39,536 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-02-12 23:48:39,552 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,552 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:39,553 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,553 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:39,553 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-02-12 23:48:39,554 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-02-12 23:48:39,555 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:39,567 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,567 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:39,567 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-02-12 23:48:39,891 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-02-12 23:48:39,892 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-02-12 23:48:39,937 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-02-12 23:48:39,938 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-02-12 23:48:39,998 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-02-12 23:48:39,999 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-02-12 23:48:40,034 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-02-12 23:48:40,035 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-02-12 23:48:40,222 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-02-12 23:48:40,223 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-02-12 23:48:40,283 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-02-12 23:48:40,284 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-02-12 23:48:40,349 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-02-12 23:48:40,350 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:40,373 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:40,391 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-02-12 23:48:40,392 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:40,424 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:40,588 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-02-12 23:48:40,590 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:40,608 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-02-12 23:48:40,609 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:40,625 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:40,637 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:41,559 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:41,580 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:42,375 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:42,398 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:42,426 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:42,447 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:42,628 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:42,639 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:42,685 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:42,689 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:45,585 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:45,606 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:45,606 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:45,606 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:45,628 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:46,400 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,424 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,424 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,424 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:46,446 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:46,451 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:46,470 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:46,470 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:46,470 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,511 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,689 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:46,693 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,714 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:46,714 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:46,715 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:46,756 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,756 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:46,756 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:46,760 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:46,799 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:47,631 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:47,653 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:48,448 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:48,471 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:48,513 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:48,534 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:48,762 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:48,782 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:48,802 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:48,826 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:51,658 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:51,678 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:51,678 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:51,678 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:51,698 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:52,475 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,498 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,498 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,499 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:52,519 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:52,535 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:52,560 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:52,560 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:52,560 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,581 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,786 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:52,807 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:52,807 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:52,830 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,851 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:52,851 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:53,700 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:53,721 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:54,521 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:54,543 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:54,584 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:54,605 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:57,726 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:57,747 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:57,747 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-02-12 23:48:58,544 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:58,565 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:58,565 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-02-12 23:48:58,609 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:58,629 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:58,629 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-02-12 23:48:58,629 [INFO] Processo concluído em 25.25 segundos
+2026-02-12 23:48:58,629 [INFO] Resultado: 10 sucessos, 18 falhas
+2026-02-12 23:48:58,630 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-02-12 23:48:58,630 [INFO] Script finalizado
