@@ -24188,3 +24188,161 @@
 2026-03-14 23:56:31,443 [INFO] Resultado: 10 sucessos, 18 falhas
 2026-03-14 23:56:31,443 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-03-14 23:56:31,444 [INFO] Script finalizado
+2026-03-15 02:11:26,152 [INFO] Iniciando processo de download
+2026-03-15 02:11:26,152 [INFO] Preparando estrutura de diretórios...
+2026-03-15 02:11:26,153 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-03-15 02:11:26,153 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-03-15 02:11:26,153 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-03-15 02:11:26,154 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-03-15 02:11:26,154 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-03-15 02:11:26,154 [INFO] Iniciando 28 downloads com 5 threads...
+2026-03-15 02:11:26,154 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:26,155 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:26,155 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:26,156 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:26,156 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:27,412 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:27,412 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:27,448 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:27,448 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:27,459 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:27,459 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:27,492 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:27,492 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:27,515 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:27,516 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:28,325 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:28,325 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:28,335 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:28,335 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:28,543 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:28,543 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:28,650 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:28,650 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:28,839 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:28,839 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:29,245 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:29,245 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:29,246 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:29,420 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:29,420 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:29,420 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-03-15 02:11:29,464 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:29,465 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:29,465 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-03-15 02:11:29,542 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:29,542 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:29,543 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-03-15 02:11:29,912 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-03-15 02:11:29,913 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-03-15 02:11:29,915 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-03-15 02:11:29,915 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:29,916 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-03-15 02:11:29,916 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:29,918 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-03-15 02:11:30,059 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-03-15 02:11:30,060 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-03-15 02:11:30,189 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:30,189 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:30,218 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-03-15 02:11:30,219 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-03-15 02:11:30,238 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-03-15 02:11:30,239 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-03-15 02:11:30,266 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-03-15 02:11:30,268 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-03-15 02:11:30,309 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-03-15 02:11:30,310 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:30,340 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-03-15 02:11:30,341 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:30,599 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-03-15 02:11:30,600 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:30,603 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-03-15 02:11:30,604 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:31,165 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:31,165 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:31,267 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:31,268 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:31,376 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:31,376 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:31,488 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:31,488 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:31,520 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:31,520 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:32,017 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:32,017 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:32,158 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:32,158 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:32,326 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:32,326 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:32,326 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:32,341 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:32,342 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:32,381 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:32,382 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:32,934 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:32,934 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:32,935 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:33,166 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:33,167 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:33,198 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:33,199 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:33,199 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:33,208 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:33,208 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:33,208 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:33,478 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:33,478 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:33,478 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:33,814 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:33,815 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:33,984 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:33,985 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:34,085 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:34,085 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:34,267 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:34,268 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:34,552 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:34,552 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:34,653 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:34,653 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:34,792 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:34,792 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:35,049 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:35,049 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:35,049 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:35,174 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:35,174 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:35,322 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:35,323 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:35,484 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:35,484 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:35,484 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:35,616 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:35,616 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:35,617 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:35,952 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:35,952 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:35,994 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:35,994 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:36,322 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:36,322 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:36,425 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:36,425 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:37,070 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:37,071 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:37,082 [ERROR] Arquivo muito pequeno: 946 bytes
+2026-03-15 02:11:37,082 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:37,266 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:37,266 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:37,376 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:37,376 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:38,096 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:38,096 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-03-15 02:11:38,309 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:38,309 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-03-15 02:11:38,448 [ERROR] Arquivo muito pequeno: 173 bytes
+2026-03-15 02:11:38,449 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-03-15 02:11:38,449 [INFO] Processo concluído em 12.30 segundos
+2026-03-15 02:11:38,449 [INFO] Resultado: 10 sucessos, 18 falhas
+2026-03-15 02:11:38,449 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-03-15 02:11:38,449 [INFO] Script finalizado
