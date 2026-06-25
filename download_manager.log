@@ -36697,3 +36697,162 @@
 2026-06-24 01:06:05,746 [INFO] Resultado: 22 sucessos, 6 falhas
 2026-06-24 01:06:05,746 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-06-24 01:06:05,747 [INFO] Script finalizado
+2026-06-25 01:06:12,837 [INFO] Iniciando processo de download
+2026-06-25 01:06:12,837 [INFO] Preparando estrutura de diretórios...
+2026-06-25 01:06:12,838 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-06-25 01:06:12,838 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-06-25 01:06:12,839 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-06-25 01:06:12,839 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-06-25 01:06:12,840 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-06-25 01:06:12,840 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-06-25 01:06:12,840 [INFO] Iniciando 28 downloads com 5 threads...
+2026-06-25 01:06:12,841 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:12,841 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:12,842 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:12,842 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:12,843 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:06:32,306 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:32,307 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:32,324 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:32,454 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:32,470 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:06:34,308 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:34,310 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:34,326 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:34,456 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:34,471 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:06:53,599 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:53,755 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:53,811 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:06:53,888 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:54,040 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:57,602 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:06:57,760 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:57,816 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:06:57,892 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:06:58,044 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:16,978 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:16,978 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:16,979 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:17,381 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:17,381 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:17,381 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-06-25 01:07:17,440 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:17,440 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:17,440 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-06-25 01:07:17,605 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:17,605 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:17,605 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-06-25 01:07:17,699 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-06-25 01:07:17,700 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-06-25 01:07:17,701 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-06-25 01:07:17,702 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-06-25 01:07:17,819 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:17,819 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:17,820 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-06-25 01:07:17,847 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-06-25 01:07:17,848 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-06-25 01:07:17,936 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-06-25 01:07:17,937 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-06-25 01:07:18,033 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-06-25 01:07:18,034 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-06-25 01:07:18,036 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-06-25 01:07:18,037 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-06-25 01:07:18,117 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-06-25 01:07:18,118 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:18,120 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-06-25 01:07:18,121 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:18,230 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-06-25 01:07:18,231 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:18,233 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-06-25 01:07:18,234 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:36,607 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:37,631 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:37,708 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:37,843 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:37,989 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:38,610 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:39,633 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:39,710 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:39,845 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:07:39,992 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:58,322 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:58,911 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:59,292 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:07:59,364 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:07:59,424 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:02,327 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:02,916 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:03,296 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:03,368 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:03,429 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:21,875 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:21,875 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:21,875 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:22,535 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:22,535 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:22,535 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:22,687 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:22,687 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:22,688 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:22,765 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:22,766 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:22,766 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:22,898 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:22,898 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:22,899 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:41,333 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:41,920 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:42,299 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:42,432 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:42,585 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:43,335 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:43,922 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:08:44,301 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:08:44,435 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:08:44,587 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:02,623 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:03,212 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:03,858 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:03,858 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:03,876 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:06,628 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:07,216 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:07,862 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:07,863 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:07,880 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:25,954 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:25,955 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:25,955 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:26,899 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:26,899 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:26,899 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:27,410 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:27,410 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:27,410 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:27,487 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:27,487 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:27,539 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:27,539 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:45,348 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:46,654 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:47,108 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:09:47,350 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:09:48,657 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:09:49,110 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:10:06,834 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:10:07,936 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:10:08,447 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:10:10,837 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:10:11,940 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:10:12,450 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:10:30,404 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:10:30,404 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-25 01:10:31,411 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:10:31,411 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-25 01:10:32,223 [ERROR] Erro HTTP: HTTPError - 522 Server Error: <none> for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:10:32,224 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-25 01:10:32,224 [INFO] Processo concluído em 259.39 segundos
+2026-06-25 01:10:32,225 [INFO] Resultado: 10 sucessos, 18 falhas
+2026-06-25 01:10:32,225 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-06-25 01:10:32,225 [INFO] Script finalizado
