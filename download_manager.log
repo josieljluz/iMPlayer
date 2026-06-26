@@ -37014,3 +37014,101 @@
 2026-06-25 03:53:32,099 [INFO] Resultado: 10 sucessos, 18 falhas
 2026-06-25 03:53:32,099 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-06-25 03:53:32,100 [INFO] Script finalizado
+2026-06-26 01:13:08,828 [INFO] Iniciando processo de download
+2026-06-26 01:13:08,829 [INFO] Preparando estrutura de diretórios...
+2026-06-26 01:13:08,830 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-06-26 01:13:08,830 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-06-26 01:13:08,830 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-06-26 01:13:08,831 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-06-26 01:13:08,831 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-06-26 01:13:08,831 [INFO] Iniciando 28 downloads com 5 threads...
+2026-06-26 01:13:08,832 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-26 01:13:08,832 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-26 01:13:08,833 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:08,833 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:08,834 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-26 01:13:09,232 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:09,246 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:09,993 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-06-26 01:13:09,995 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-26 01:13:10,001 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-06-26 01:13:10,003 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-06-26 01:13:10,082 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-06-26 01:13:10,085 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-06-26 01:13:10,458 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-06-26 01:13:10,459 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-06-26 01:13:10,461 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-06-26 01:13:10,462 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-06-26 01:13:10,936 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-06-26 01:13:10,936 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-06-26 01:13:10,938 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-06-26 01:13:10,939 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-06-26 01:13:11,045 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-06-26 01:13:11,047 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-06-26 01:13:11,234 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:11,248 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:11,301 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-06-26 01:13:11,302 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-06-26 01:13:11,364 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-06-26 01:13:11,365 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-06-26 01:13:11,380 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-06-26 01:13:11,381 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-06-26 01:13:11,416 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:11,604 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:11,797 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-06-26 01:13:11,798 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-26 01:13:11,800 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-06-26 01:13:11,801 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:11,956 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-06-26 01:13:11,957 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-26 01:13:12,009 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:12,971 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgbrasil.xml.gz (60031 bytes) | Hash: 7e2e7952f1c4ed27d376d6b4abddbea3
+2026-06-26 01:13:12,973 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-26 01:13:13,206 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgportugal.xml.gz (449467 bytes) | Hash: 87f7b9bdbd7e1917b404b026681a5509
+2026-06-26 01:13:13,208 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:13,423 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:14,011 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:14,105 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-06-26 01:13:14,107 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-26 01:13:14,246 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,267 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-06-26 01:13:15,270 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-06-26 01:13:15,419 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,425 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,602 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,602 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,602 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,608 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,640 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,780 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,780 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:15,780 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-06-26 01:13:15,802 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:16,304 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.xml.gz (60031 bytes) | Hash: 7e2e7952f1c4ed27d376d6b4abddbea3
+2026-06-26 01:13:16,307 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-06-26 01:13:17,070 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.xml.gz (449467 bytes) | Hash: 87f7b9bdbd7e1917b404b026681a5509
+2026-06-26 01:13:17,072 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:17,307 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:17,358 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-06-26 01:13:17,360 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-06-26 01:13:17,804 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:17,972 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:18,250 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:18,309 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-06-26 01:13:18,415 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:18,415 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:19,310 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:19,514 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:19,643 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:19,850 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:19,850 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:21,976 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:22,147 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:22,147 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:23,518 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:23,684 [ERROR] Erro HTTP: HTTPError - 503 Server Error: Service Unavailable for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:23,684 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-06-26 01:13:23,685 [INFO] Processo concluído em 14.86 segundos
+2026-06-26 01:13:23,685 [INFO] Resultado: 22 sucessos, 6 falhas
+2026-06-26 01:13:23,685 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-06-26 01:13:23,685 [INFO] Script finalizado
