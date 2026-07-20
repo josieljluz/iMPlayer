@@ -40577,3 +40577,102 @@
 2026-07-19 03:04:57,607 [INFO] Resultado: 22 sucessos, 6 falhas
 2026-07-19 03:04:57,607 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-07-19 03:04:57,607 [INFO] Script finalizado
+2026-07-20 00:40:20,599 [INFO] Iniciando processo de download
+2026-07-20 00:40:20,599 [INFO] Preparando estrutura de diretórios...
+2026-07-20 00:40:20,600 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-07-20 00:40:20,601 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-07-20 00:40:20,601 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-07-20 00:40:20,601 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-07-20 00:40:20,602 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-07-20 00:40:20,602 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-07-20 00:40:20,602 [INFO] Iniciando 28 downloads com 5 threads...
+2026-07-20 00:40:20,603 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-07-20 00:40:20,603 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-07-20 00:40:20,604 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:20,604 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:20,605 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-07-20 00:40:20,878 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:20,987 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:21,971 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-07-20 00:40:21,974 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-07-20 00:40:22,161 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-07-20 00:40:22,164 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-07-20 00:40:22,441 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-07-20 00:40:22,443 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-07-20 00:40:22,483 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-07-20 00:40:22,484 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-07-20 00:40:22,619 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/PiauiTV.m3u (76851 bytes) | Hash: ed19d1bee8112f753504aab432876025
+2026-07-20 00:40:22,620 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-07-20 00:40:22,880 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:22,891 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-07-20 00:40:22,892 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-07-20 00:40:22,894 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/m3u@proton.me.m3u (4700379 bytes) | Hash: 17e34181bba3a93ed726df4bc76b9a9c
+2026-07-20 00:40:22,895 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-07-20 00:40:22,989 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:23,043 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:23,155 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:23,217 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-07-20 00:40:23,220 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-07-20 00:40:23,226 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-07-20 00:40:23,227 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlist.m3u (8080 bytes) | Hash: 5e4f576e8ce1ee516c916d59ed08a851
+2026-07-20 00:40:23,228 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-07-20 00:40:23,230 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-07-20 00:40:23,480 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-07-20 00:40:23,481 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-07-20 00:40:23,482 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists.m3u (107555 bytes) | Hash: 3114d823758c4d5391acd0714d83bb8c
+2026-07-20 00:40:23,484 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-07-20 00:40:23,572 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-07-20 00:40:23,573 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:23,688 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/pornstars.m3u (100426 bytes) | Hash: ed9b31dbe857f86e7df7a0a4e4ecd448
+2026-07-20 00:40:23,690 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-07-20 00:40:23,823 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:24,932 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgbrasil.xml.gz (60031 bytes) | Hash: 7e2e7952f1c4ed27d376d6b4abddbea3
+2026-07-20 00:40:24,935 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-07-20 00:40:24,980 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgportugal.xml.gz (449467 bytes) | Hash: 87f7b9bdbd7e1917b404b026681a5509
+2026-07-20 00:40:24,982 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:25,245 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:25,825 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:26,169 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-07-20 00:40:26,171 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-07-20 00:40:26,329 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,047 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,159 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,238 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,238 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,238 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-07-20 00:40:27,247 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,291 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,291 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,291 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,388 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,440 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:27,514 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-07-20 00:40:27,517 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-07-20 00:40:28,446 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.xml.gz (60031 bytes) | Hash: 7e2e7952f1c4ed27d376d6b4abddbea3
+2026-07-20 00:40:28,449 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-07-20 00:40:28,584 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.xml.gz (449467 bytes) | Hash: 87f7b9bdbd7e1917b404b026681a5509
+2026-07-20 00:40:28,586 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:28,739 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:29,443 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:29,577 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-07-20 00:40:29,579 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:29,581 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-07-20 00:40:30,334 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:30,464 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:30,464 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:30,621 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-07-20 00:40:30,741 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:30,886 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:31,393 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:31,570 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:31,570 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:33,583 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:33,728 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:33,729 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:34,890 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:35,015 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:35,015 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-07-20 00:40:35,016 [INFO] Processo concluído em 14.42 segundos
+2026-07-20 00:40:35,016 [INFO] Resultado: 22 sucessos, 6 falhas
+2026-07-20 00:40:35,016 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-07-20 00:40:35,016 [INFO] Script finalizado
