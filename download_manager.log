@@ -55310,3 +55310,212 @@
 2026-10-11 02:11:54,442 [INFO] Resultado: 12 sucessos, 16 falhas
 2026-10-11 02:11:54,442 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-10-11 02:11:54,442 [INFO] Script finalizado
+2026-10-11 06:51:45,313 [INFO] Iniciando processo de download
+2026-10-11 06:51:45,314 [INFO] Preparando estrutura de diretórios...
+2026-10-11 06:51:45,314 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-10-11 06:51:45,314 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-10-11 06:51:45,315 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-10-11 06:51:45,315 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-10-11 06:51:45,316 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-10-11 06:51:45,316 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-10-11 06:51:45,316 [INFO] Iniciando 28 downloads com 5 threads...
+2026-10-11 06:51:45,316 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:45,317 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:45,318 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:45,318 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:45,319 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:45,422 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:45,429 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:45,434 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:45,437 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:45,493 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:47,425 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:47,431 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:47,436 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:47,439 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:47,444 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:47,449 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:47,455 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:47,460 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:47,496 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:47,523 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,449 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:51,454 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,459 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:51,464 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:51,471 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:51,471 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:51,471 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:51,477 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,477 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,478 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:51,482 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:51,482 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:51,482 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:51,483 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:51,483 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:51:51,484 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:51,496 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:51,527 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,536 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,536 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:51:51,536 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:51,657 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:51,668 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:51,676 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:51,712 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:53,499 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:53,507 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:53,659 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:53,670 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:53,678 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:53,714 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:53,802 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:53,808 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:53,819 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:53,852 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:57,511 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:57,519 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:57,519 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:51:57,520 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:51:57,641 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:57,807 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:57,809 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:57,823 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:57,857 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:57,955 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:57,955 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:57,957 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:51:57,959 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:57,960 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:57,961 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:51:57,994 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:57,994 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-11 06:51:57,996 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:51:58,057 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:58,057 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-11 06:51:58,058 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:51:58,097 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:58,149 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:58,154 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:58,187 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:51:59,643 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:51:59,772 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:00,099 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:52:00,151 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:52:00,156 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:52:00,190 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:00,226 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:00,290 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:00,292 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:00,335 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:03,776 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:52:03,910 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:03,910 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:52:03,911 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:04,032 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:04,231 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:52:04,294 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:52:04,295 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:52:04,340 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:04,360 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:04,360 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-11 06:52:04,361 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:04,369 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:04,433 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:04,433 [ERROR] Falha após 3 tentativas: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:52:04,434 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:04,442 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:04,444 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:04,444 [ERROR] Falha após 3 tentativas: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-11 06:52:04,445 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:04,454 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:04,473 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:04,474 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:04,475 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:04,483 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:06,034 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:06,152 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:06,371 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:06,379 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:06,444 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:06,456 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:06,463 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:06,478 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:06,485 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:06,493 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,157 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:10,289 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-11 06:52:10,289 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-11 06:52:10,290 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,298 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,383 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,390 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,390 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,390 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:10,400 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:10,468 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:10,477 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:10,477 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:10,477 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,482 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,484 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,491 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,491 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,492 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,497 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,501 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:10,508 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,508 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:10,509 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:10,519 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:12,300 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:12,310 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:12,400 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:12,407 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:12,487 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:12,495 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:12,503 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:12,509 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:12,520 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:12,526 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,314 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,323 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,323 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,323 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:16,331 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:16,411 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,422 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,422 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,422 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,430 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,499 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:16,507 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:16,507 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:16,507 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,513 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,516 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,522 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,522 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:16,530 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,545 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:16,545 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:18,333 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:18,340 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:18,432 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:18,439 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:18,518 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:18,536 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:22,344 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:22,353 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:22,353 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-11 06:52:22,443 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:22,451 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:22,451 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-11 06:52:22,540 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:22,548 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:22,549 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-11 06:52:22,549 [INFO] Processo concluído em 37.24 segundos
+2026-10-11 06:52:22,550 [INFO] Resultado: 0 sucessos, 28 falhas
+2026-10-11 06:52:22,550 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-10-11 06:52:22,550 [INFO] Script finalizado
