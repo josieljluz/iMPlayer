@@ -58200,3 +58200,152 @@
 2026-10-23 05:25:09,176 [INFO] Resultado: 12 sucessos, 16 falhas
 2026-10-23 05:25:09,176 [WARNING] Alguns downloads falharam. Verifique os logs.
 2026-10-23 05:25:09,176 [INFO] Script finalizado
+2026-10-24 01:06:11,575 [INFO] Iniciando processo de download
+2026-10-24 01:06:11,575 [INFO] Preparando estrutura de diretórios...
+2026-10-24 01:06:11,575 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-10-24 01:06:11,576 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/playlists
+2026-10-24 01:06:11,576 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-10-24 01:06:11,576 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/epg
+2026-10-24 01:06:11,577 [INFO] Diretório limpo: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-10-24 01:06:11,577 [INFO] Diretório criado: /home/runner/work/iMPlayer/iMPlayer/iMPlayer
+2026-10-24 01:06:11,577 [INFO] Iniciando 28 downloads com 5 threads...
+2026-10-24 01:06:11,578 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-24 01:06:11,578 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-24 01:06:11,579 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:11,579 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:11,580 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-24 01:06:11,723 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:11,831 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:12,935 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-10-24 01:06:12,937 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-24 01:06:13,031 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-10-24 01:06:13,034 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:13,073 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/playlists/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-10-24 01:06:13,075 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:13,284 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:13,390 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:13,725 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:13,833 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:13,972 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:14,062 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-10-24 01:06:14,065 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:14,082 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:14,214 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:15,286 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:15,392 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:15,507 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:15,566 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:16,216 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:16,372 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:17,977 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:18,086 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:18,228 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:18,228 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:18,228 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:18,233 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:18,233 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:18,233 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:18,390 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:18,416 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:19,511 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:19,571 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:19,659 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:19,659 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:19,660 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:19,725 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:19,725 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/PiauiTV.m3u
+2026-10-24 01:06:19,726 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:19,843 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:19,935 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:20,376 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:20,392 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:20,418 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:20,520 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:20,520 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:20,521 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:20,545 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:20,589 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:20,671 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:21,845 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:21,937 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:22,015 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:22,104 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:22,673 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:22,822 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:24,549 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:24,594 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:24,698 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:24,698 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/m3u4u_proton.me.m3u
+2026-10-24 01:06:24,699 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:24,751 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:24,751 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:24,752 [INFO] Tentativa 1/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:24,846 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:24,928 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:26,019 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:26,108 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:26,144 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:26,144 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/playlist.m3u
+2026-10-24 01:06:26,145 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-24 01:06:26,239 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:26,239 [ERROR] Falha após 3 tentativas: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:26,240 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:26,378 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:26,827 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:26,848 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:26,931 [INFO] Tentativa 2/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:26,996 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:26,996 [ERROR] Falha após 3 tentativas: https://gitlab.com/josielluz/playlists/-/raw/main/playlists.m3u
+2026-10-24 01:06:26,997 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-24 01:06:27,013 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:27,097 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:27,301 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgbrasil.xml.gz (60031 bytes) | Hash: 7e2e7952f1c4ed27d376d6b4abddbea3
+2026-10-24 01:06:27,303 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-24 01:06:28,290 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epg/epgportugal.xml.gz (449467 bytes) | Hash: 87f7b9bdbd7e1917b404b026681a5509
+2026-10-24 01:06:28,293 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:28,380 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:28,420 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-10-24 01:06:28,422 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-24 01:06:28,426 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:28,514 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:29,829 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-10-24 01:06:29,831 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/3wk1y24kx7uzdevxygz7
+2026-10-24 01:06:30,429 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:30,572 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:30,827 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_1.xml.gz (60031 bytes) | Hash: 7e2e7952f1c4ed27d376d6b4abddbea3
+2026-10-24 01:06:30,829 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:30,979 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:31,017 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:31,102 [INFO] Tentativa 3/3 - URL: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:31,200 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:31,200 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:31,201 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/epg/jq2zy9epr3bwxmgwyxr5
+2026-10-24 01:06:31,261 [ERROR] Erro HTTP: HTTPError - 403 Client Error: Forbidden for url: https://gitlab.com/users/sign_in
+2026-10-24 01:06:31,261 [ERROR] Falha após 3 tentativas: https://gitlab.com/josieljefferson12/playlists/-/raw/main/pornstars.m3u
+2026-10-24 01:06:31,262 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/3wk1y24kx7uzdevxygz7
+2026-10-24 01:06:32,465 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgbrasil.m3u (575422 bytes) | Hash: f49e7db34748ac8a9807f453fc66c3cc
+2026-10-24 01:06:32,468 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:32,498 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/iMPlayer/iMPlayer_3.xml.gz (449467 bytes) | Hash: 87f7b9bdbd7e1917b404b026681a5509
+2026-10-24 01:06:32,501 [INFO] Tentativa 1/3 - URL: http://m3u4u.com/m3u/jq2zy9epr3bwxmgwyxr5
+2026-10-24 01:06:32,518 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:32,588 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:32,772 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:32,772 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:32,981 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:33,115 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:33,597 [INFO] Download OK: /home/runner/work/iMPlayer/iMPlayer/epgportugal.m3u (1972439 bytes) | Hash: ea060b34a8722eeeaea5983a2f10b1d8
+2026-10-24 01:06:34,576 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:34,590 [INFO] Tentativa 2/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:34,699 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:34,699 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:34,717 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:37,119 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:37,287 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:37,288 [ERROR] Falha após 3 tentativas: http://m3u4u.com/epg/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:38,721 [INFO] Tentativa 3/3 - URL: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:38,866 [ERROR] Erro HTTP: HTTPError - 404 Client Error: Not Found for url: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:38,866 [ERROR] Falha após 3 tentativas: http://m3u4u.com/m3u/782dyqdrqkh1xegen4zp
+2026-10-24 01:06:38,867 [INFO] Processo concluído em 27.29 segundos
+2026-10-24 01:06:38,867 [INFO] Resultado: 12 sucessos, 16 falhas
+2026-10-24 01:06:38,867 [WARNING] Alguns downloads falharam. Verifique os logs.
+2026-10-24 01:06:38,867 [INFO] Script finalizado
